@@ -1,0 +1,110 @@
+.Design{
+    color: red;
+    font-family: "Times New Roman";
+    font-size: 10px;
+    background-color: aqua;
+}
+.Design2{
+    color: blue;
+    font-family: "Arial";
+    font-size: 18px;
+    background-color: rgb(207, 24, 110);
+}
+.Design3{
+    color: azure;
+    font-family: "Calibri";
+    font-size: 15px;
+    background-color: rgb(203, 224, 14);
+}
+.Design4{
+    color: lightgreen;
+    font-family: "Times New Roman";
+    font-size: 22px;
+    background-color: rgb(1, 238, 226);
+}
+.Design5{
+    color: rgb(15, 230, 15);
+    font-family: "Robotic";
+    font-size: 11px;
+    background-color:burlywood;
+}
+.Design6{
+    color: rgba(129, 11, 240, 0.116);
+    font-family: "Times New Roman";
+    font-size: 15px;
+    background-color: lightcoral;
+}
+
+a.button1:visited {
+    color:green
+}a.button1:hover {
+    color: red;
+}
+
+a.button2:link {
+    text-decoration: none;
+}a.button2:visited {
+    text-decoration: none;
+}a.button2:active {
+    text-decoration: underline;
+}a.button2:hover {
+    text-decoration: underline;
+}
+
+a.button3:link, a.button3:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}a.button3:hover, a.button3:active {
+    background-color: red;
+}
+
+a.button4:link, a.button4:visited {
+    background-color: #685b5d;
+    color: rgb(3, 199, 19);
+    padding: 14px 25px;
+    text-align: right;
+    text-decoration: salmon;
+    display: -webkit-box;
+}a.button4:hover, a.button4:active {
+    background-color: rgb(0, 255, 255);
+}
+
+a.button5:link, a.button5:visited {
+    background-color: #685b5d;
+    color: rgb(186, 199, 3);
+    padding: 14px 25px;
+    text-align: left;
+    display: ruby-base;
+}
+
+img.img1 {
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    padding: 9px;
+    width: 190px;
+}
+
+img.img2 {
+    opacity: 0.5;
+    filter: alpha(opacity=30);
+}
+table#t01{
+    width: 100%;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+    
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}table#t01 tr:nth-child(even){
+    background-color: #550b0b;
+}
